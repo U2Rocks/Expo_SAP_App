@@ -1,20 +1,35 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+
+import { StyleSheet } from 'react-native';
+import HomeScreen from './src/screens/HomeScreen';
+import PetInfoScreen from './src/screens/PetInfoScreen';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 export default function App() {
+
+  // make js file with all up to date pet info
+  // make basic loading effect for pet info page
+
+  // refine styles to make app look more cartoony later with outlines?
+
+  const Stack = createNativeStackNavigator()
+
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Splash">
+        <Stack.Screen
+        name="Home"
+        component={HomeScreen} 
+        />
+        <Stack.Screen name="Pet Info" component={PetInfoScreen}/>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  }
+})
