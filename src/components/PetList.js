@@ -7,21 +7,32 @@ export default function PetList({ navigate, filterValue }) {
 
     const filteredNames = filterValue ? NameList.filter( f => f.name.includes(filterValue)) : null
 
+    const renderCard = ({item}) => <PetCard Name={item.name} navigation={navigate}/>
+
+    const extractKeys = (pet, index) => pet.id
+
+    const getItemsLayout = (data, index) => ({
+        length: 60,
+        offset: 60 * index,
+        index
+    })
+
 
     return (
         <View style={styles.container}>
             <FlatList
             data={filterValue ? filteredNames : NameList}
-            keyExtractor={(pet) => pet.id}
-            renderItem={({item}) => <PetCard Name={item.name} navigation={navigate}/>}
+            keyExtractor={(pet, index) => pet.id}
+            renderItem={renderCard}
             scrollEnabled={true}
             showsVerticalScrollIndicator={true}
             horizontal={false}
-            getItemLayout={(data, index) => ({
-                length: NameList.length,
-                offset: NameList.length * index,
-                index
-            })}
+            getItemLayout={getItemsLayout}
+            removeClippedSubviews={true}
+            initialNumToRender={7}
+            maxToRenderPerBatch={5}
+            style={styles.list}
+            windowSize={10}
             />
         </View>
     )
@@ -31,7 +42,7 @@ const styles = StyleSheet.create({
     container: {
         justifyContent: "center",
         padding: 10,
-        height: '78%',
+        height: '72%',
     },
     headerText: {
         fontSize: 30,
@@ -39,5 +50,8 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontWeight: "bold",
         textDecorationLine: "underline",
+    },
+    list: {
+        width: '100%',
     },
 })

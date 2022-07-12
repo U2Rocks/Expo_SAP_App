@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import PetList from "../components/PetList"
 import Search from "../components/Search"
+import SettingLink from "../components/policy/SettingLink"
 import { StyleSheet, View, Text, SafeAreaView } from "react-native"
 import { useState } from "react"
 
@@ -12,6 +13,7 @@ export default function HomeScreen({ navigation }) {
     return (
         <SafeAreaView style={styles.container}>
             <Header title="Super Auto Helper" />
+            <SettingLink navigation={navigation}/>
             <Search searchFunction={setSearchVal} currentSearch={searchVal}/>
             <PetList navigate={navigation} filterValue={searchVal}/>
         </SafeAreaView>

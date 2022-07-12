@@ -14,11 +14,15 @@ export default function PetCard({ Name, navigation }) {
         }
     }
 
+    function navigateToInfo() {
+        navigation.navigate('Pet Info', { petName: Name })
+    }
+
 
     return (
-        <TouchableOpacity onPress={() => navigation.navigate('Pet Info', { petName: Name })}>
-        <View style={[styles.container, isTouched ? {backgroundColor: "#9999FF"}: {backgroundColor: "#E6ECFF"}]}>
-            <Text style={[styles.cardHeader, isTouched ? {color: "white"} : {color: "black"}]}>{Name}</Text>
+        <TouchableOpacity onPress={navigateToInfo}>
+        <View style={[styles.container]}>
+            <Text style={[styles.cardHeader]}>{Name}</Text>
         </View>
         </TouchableOpacity>
     )
@@ -32,6 +36,8 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         backgroundColor: "#E6ECFF",
         padding: 15,
+        height: 60,
+        width: 375,
     },
     cardHeader: {
         fontWeight: "bold",

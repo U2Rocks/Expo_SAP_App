@@ -4,6 +4,7 @@ import HomeScreen from './src/screens/HomeScreen';
 import PetInfoScreen from './src/screens/PetInfoScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import SettingCard from './src/components/policy/SettingCard';
 
 export default function App() {
 
@@ -23,6 +24,7 @@ export default function App() {
         component={HomeScreen} 
         />
         <Stack.Screen name="Pet Info" component={PetInfoScreen}/>
+        <Stack.Screen name="Settings" component={SettingCard}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
