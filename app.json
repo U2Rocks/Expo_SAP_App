@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "super_auto_help",
-    "slug": "super_auto_help",
+    "name": "Super_Auto_Help",
+    "slug": "Super_Auto_Help",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Super_Carrot_1024.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./src/assets/images/Carrots2.png",
@@ -18,16 +18,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mycitrus.sap",
+      "buildNumber" : "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Super_Carrot_1024.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mycitrus.sap",
+      "versionCode": 2,
+      "permissions": []
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Carrot_Favicon.png"
     }
   }
 }
