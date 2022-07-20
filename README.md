@@ -9,3 +9,7 @@ A small app for andriod and ios that acts as a SAP wiki with information on diff
 -- Currently being rolled out on google play store(version 1.2)
 
 -- Not currently approved for the Apple app store
+
+## Final Comments and Notes
+
+-- Note: iosprod contains code for ios bundle and main contains code for adroid bundle
