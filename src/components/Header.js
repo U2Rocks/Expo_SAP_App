@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#9999FF",
     },
     headerText: {
-        fontSize: 45,
+        fontSize: 36,
         fontWeight: 'bold',
         textAlign: 'center',
         color: "white",

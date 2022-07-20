@@ -3,8 +3,7 @@ import { NameList } from '../pets/PetNames'
 import PetCard from './PetCard'
 
 
-// The list [NameList] will be filtered and repalced with a mapped version when a search term is true(state variable)
-// pass down search term state from home page 
+// This component is currently not being used
 
 
 export default function ListWrapper() {

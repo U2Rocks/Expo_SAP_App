@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     container: {
         justifyContent: "center",
         padding: 10,
-        height: '72%',
+        height: '70%',
     },
     headerText: {
         fontSize: 30,
