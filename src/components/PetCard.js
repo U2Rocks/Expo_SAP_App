@@ -32,13 +32,12 @@ export default function PetCard({ Name, navigation }) {
 
 const styles = StyleSheet.create({
     container: {
-        marginHorizontal: "1%",
+        marginHorizontal: "3%",
         marginTop: 10,
         borderRadius: 25,
         backgroundColor: "#E6ECFF",
         padding: 15,
         height: 60,
-        width: 350,
     },
     cardHeader: {
         fontWeight: "bold",
