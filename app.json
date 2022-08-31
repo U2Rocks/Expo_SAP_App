@@ -20,7 +20,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.mycitrus.sap",
-      "buildNumber" : "1.0.0",
+      "buildNumber" : "1.1.1",
       "infoPlist": {}
     },
     "android": {
@@ -29,7 +29,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.mycitrus.sap",
-      "versionCode": 2,
+      "versionCode": 4,
       "permissions": []
     },
     "web": {

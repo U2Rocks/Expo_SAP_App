@@ -617,8 +617,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "11th August 2022",
+            note: "Marmoset's ability changed from [Sell: Roll shop] to [Sell: The next 1/2/3 rolls are free]"
         },
         ],
         pack: "Weekly",
@@ -626,17 +626,17 @@ export const pets = {
         levelone : {
             attack: 2,
             health: 3,
-            effect: "Sell: Roll shop",
+            effect: "Sell: The next 1 rolls are free",
         },
         leveltwo : {
             attack: 4,
             health: 5,
-            effect: "Sell: Roll shop",
+            effect: "Sell: The next 2 rolls are free.",
         },
         levelthree : {
             attack: 7,
             health: 8,
-            effect: "Sell: Roll shop",
+            effect: "Sell: The next 3 rolls are free.",
         }
     },
     Moth: {
@@ -1890,8 +1890,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "11th August 2022",
+            note: "Cassowary's ability changed from [End turn: Gain (+1/+1) for each friendly Strawberry pet up to 1/2/3] to [End turn: If you have at least one Strawberry pet, gain +1/2/3 stats]"
         },
         ],
         pack: 2,
@@ -1899,17 +1899,17 @@ export const pets = {
         levelone : {
             attack: 2,
             health: 4,
-            effect: "End turn: Gain (+1/+1) for each friendly Strawberry pet up to 1",
+            effect: "End turn: If you have at least one Strawberry pet, gain +1 stats",
         },
         leveltwo : {
             attack: 4,
             health: 6,
-            effect: "End turn: Gain (+1/+1) for each friendly Strawberry pet up to 2",
+            effect: "End turn: If you have at least one Strawberry pet, gain +2 stats",
         },
         levelthree : {
             attack: 7,
             health: 9,
-            effect: "End turn: Gain (+1/+1) for each friendly Strawberry pet up to 3",
+            effect: "End turn: If you have at least one Strawberry pet, gain +3 stats",
         }
     },
     Clownfish: {
@@ -2720,8 +2720,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "11th August 2022",
+            note: "Crow's ability changed from [Sell: replace food shop with 1/2/3 Chocolate that gives +1 Experience] to [Sell: Replace shop with one Chocolate that gives +1/2/3 experience]"
         },
         ],
         pack: 2,
@@ -2729,17 +2729,17 @@ export const pets = {
         levelone : {
             attack: 3,
             health: 3,
-            effect: "Sell: replace food shop with 1 Chocolate that gives +1 Experience",
+            effect: "Sell: Replace shop with one Chocolate that gives +1 experience",
         },
         leveltwo : {
             attack: 5,
             health: 5,
-            effect: "Sell: replace food shop with 2 Chocolate that gives +1 Experience",
+            effect: "Sell: Replace shop with one Chocolate that gives +2 experience",
         },
         levelthree : {
             attack: 8,
             health: 8,
-            effect: "Sell: replace food shop with 3 Chocolate that gives +1 Experience",
+            effect: "Sell: Replace shop with one Chocolate that gives +3 experience",
         }
     },
     Donkey: {
@@ -2954,8 +2954,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "11th August 2022",
+            note: "Dragonfly ability now gives random buffs"
         },
         ],
         pack: "Weekly",
@@ -3987,16 +3987,21 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
+            patchNum: "11th August 2022",
+            note: "Tiger no longer doubles held food abilities"
+        },
+        {
+            changeNum: 2,
             patchNum: "10th May 2022",
             note: "Errata'd **Tiger Cub** to simply Tiger with new artwork"
         },
         {
-            changeNum: 2,
+            changeNum: 3,
             patchNum: "8th Decemeber 2021",
             note: "Now available in Expansion Pack 1; Ability repeated is based on the Tiger's level, not its friend's"
         },
         {
-            changeNum: 3,
+            changeNum: 4,
             patchNum: "28th August 2021",
             note: "Fixed Tiger also working End of Turn and Start of Turn effects"
         },
