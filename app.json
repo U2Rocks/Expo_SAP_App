@@ -2,7 +2,7 @@
   "expo": {
     "name": "Super_Auto_Help",
     "slug": "Super_Auto_Help",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/Super_Carrot_1024.png",
     "userInterfaceStyle": "light",
