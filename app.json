@@ -28,7 +28,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.mycitrus.sap",
-      "versionCode": 3,
+      "versionCode": 4,
       "permissions": []
     },
     "web": {
