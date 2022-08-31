@@ -20,7 +20,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.mycitrus.sap",
-      "buildNumber" : "1.1.1",
+      "buildNumber" : "2.0.0",
       "infoPlist": {}
     },
     "android": {
