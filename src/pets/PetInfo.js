@@ -1,4 +1,3 @@
-
 export const pets = {
     Ant: {
         changes: 
@@ -8,7 +7,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 2,
@@ -34,7 +33,7 @@ export const pets = {
             note: "Changed base stats to 3/2 from 2/2"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 3,
@@ -60,7 +59,7 @@ export const pets = {
             note: "Level 2 and 3 now summons 2/2 and 3/3 respectively"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 1,
@@ -96,7 +95,7 @@ export const pets = {
             note: "Now gives shop pets +1 health instead of +1/+1"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 2,
@@ -122,7 +121,7 @@ export const pets = {
             note: "Changed base stats of the Fish to 2/2 from 2/3"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 2,
@@ -148,7 +147,7 @@ export const pets = {
             note: "Attack and Health were changed to 2/1"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 2,
@@ -174,7 +173,7 @@ export const pets = {
             note: "Mosquito's ability was changed to increase the amount of enemies attack before battle instead of the damage dealt"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 2,
@@ -200,7 +199,7 @@ export const pets = {
             note: "Changed Otter's ability to [Buy: Give 1/2/3 random pets +1/+1] from [Buy: Give a random pet (+1/+1)/(+2/+2)/(+3/+3)]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 1,
@@ -231,7 +230,7 @@ export const pets = {
             note: "Attack and Health were changed to 3/1"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 4,
@@ -257,7 +256,7 @@ export const pets = {
             note: "Changed Beetle's ability to [Eat shop food: Give left-most animals +1/+2/+3 Health] from [Eat shop food: Give shop animals +1/+2/+3 Health]"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 1,
         levelone : {
             attack: 2,
@@ -283,7 +282,7 @@ export const pets = {
             note: "Changed Bluebird's ability to [End turn: Give a random friend +1/+2/+3 Attack] from [End turn: Give left-most pet +1/+2/+3 Attack]"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 1,
         levelone : {
             attack: 2,
@@ -305,26 +304,26 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "7th September 2022",
+            note: "Changed Ladybug ability to gain +2/+4/+6 attack until end of battle"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 1,
         levelone : {
             attack: 1,
             health: 3,
-            effect: "Food bought: Gain (+1/+1) until the end of battle",
+            effect: "Shop food bought: Gain +2 attack until end of battle",
         },
         leveltwo : {
             attack: 3,
             health: 5,
-            effect: "Food bought: Gain (+2/+2) until the end of battle",
+            effect: "Shop food bought: Gain +4 attack until end of battle",
         },
         levelthree : {
             attack: 6,
             health: 8,
-            effect: "Food bought: Gain (+3/+3) until the end of battle",
+            effect: "Shop food bought: Gain +6 attack until end of battle",
         }
     },
     Duckling: {
@@ -335,7 +334,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 1,
@@ -361,7 +360,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 1,
@@ -387,7 +386,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 3,
@@ -413,7 +412,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 2,
@@ -439,7 +438,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 1,
@@ -465,7 +464,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 2,
@@ -491,7 +490,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 3,
@@ -517,7 +516,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 2,
@@ -543,7 +542,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 1,
         levelone : {
             attack: 2,
@@ -591,25 +590,25 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "7th September 2022",
+            note: "Changed Frilled Dragon to 1/1"
         },
         ],
         pack: "Weekly",
         tier: 1,
         levelone : {
             attack: 1,
-            health: 2,
+            health: 1,
             effect: "Start of battle: Gain (+1/+1) per friend with Faint ability",
         },
         leveltwo : {
             attack: 3,
-            health: 4,
+            health: 3,
             effect: "Start of battle: Gain (+2/+2) per friend with Faint ability",
         },
         levelthree : {
             attack: 6,
-            health: 7,
+            health: 6,
             effect: "Start of battle: Gain (+3/+3) per friend with Faint ability",
         }
     },
@@ -673,7 +672,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 1,
         levelone : {
             attack: 1,
@@ -704,7 +703,7 @@ export const pets = {
             note: "Crab's ability was changed to [copy the highest friend's Health when bought.]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 3,
@@ -740,7 +739,7 @@ export const pets = {
             note: "The amount of targets now scales correctly with level (1/2/3 minions)"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 2,
@@ -766,7 +765,7 @@ export const pets = {
             note: "Changed the Elephant's ability to [Before attack: Deal 1 damage to the friend behind. Repeat 1/2/3 times.] from [Before Attack: Deal 1 damage to 1/2/3 friends behind.]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 3,
@@ -792,7 +791,7 @@ export const pets = {
             note: "Changed base stat of the Flamingo to 4/2 from 3/1"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 3,
@@ -818,7 +817,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 3,
@@ -849,7 +848,7 @@ export const pets = {
             note: "Changed base stats of Peacock to 2/5 from 1/5; Changed Peacock's ability to [Hurt: Gain 50% Attack (with charges)]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 2,
@@ -880,7 +879,7 @@ export const pets = {
             note: "Attack and health were changed to 4/5(was 5/4); Rat no longer has ability [Friend ahead attacks: Deal it 1 damage]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 4,
@@ -911,7 +910,7 @@ export const pets = {
             note: "Attack and health were changed to 2/1"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 2,
@@ -931,13 +930,19 @@ export const pets = {
     },
     Spider: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Spider ability stats to 2/2 > 4/4 > 6/6"
+        },
+        {
+            changeNum: 2,
             patchNum: "8th December 2021",
             note: "Friend is now summoned with the same level as the Spider; Summoned friend stats no longer scale with the Spider's level(will always be 2/2)"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 2,
@@ -947,12 +952,12 @@ export const pets = {
         leveltwo : {
             attack: 4,
             health: 4,
-            effect: "Faint: Summon a level 2 tier 3 pet as 2/2",
+            effect: "Faint: Summon a level 2 tier 3 pet as 4/4",
         },
         levelthree : {
             attack: 7,
             health: 7,
-            effect: "Faint: Summon a level 3 tier 3 pet as 2/2",
+            effect: "Faint: Summon a level 3 tier 3 pet as 6/6",
         }
     },
     Swan: {
@@ -969,7 +974,7 @@ export const pets = {
             note: "Attack and Health were changed to 3/3(was 3/4)"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 2,
         levelone : {
             attack: 1,
@@ -995,7 +1000,7 @@ export const pets = {
             note: "Reduced from 1/3 to 1/2; Weak changed from 5 extra damage to 3"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 2,
         levelone : {
             attack: 1,
@@ -1021,7 +1026,7 @@ export const pets = {
             note: "Changed Dromedary's ability to [End turn: Give the 2 left-most shop pets (+1/+1)/(+2/+2)/(+3/+3)] from [Start of turn: Give shop animals (+1/+1)/(+2/+2)/(+3/+3)]"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 2,
         levelone : {
             attack: 2,
@@ -1073,7 +1078,7 @@ export const pets = {
             note: "Attack and Health were changed to 5/3"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 2,
         levelone : {
             attack: 5,
@@ -1099,7 +1104,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 1,
@@ -1125,7 +1130,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 2,
@@ -1151,7 +1156,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 1,
@@ -1177,7 +1182,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 2,
@@ -1203,7 +1208,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 1,
@@ -1229,7 +1234,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 2,
@@ -1255,7 +1260,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 5,
@@ -1281,7 +1286,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 2,
@@ -1307,7 +1312,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 2,
@@ -1333,7 +1338,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 2,
         levelone : {
             attack: 3,
@@ -1463,7 +1468,7 @@ export const pets = {
             note: "Changed base stats of Badger to 5/3 from 5/4; Changed Badger's ability to [Faint: Deal 50%/100%/150% Attack damage to adjacent animals] from [Faint: Deal 1x/2x/3x Attack damage to adjacent animals]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 5,
@@ -1489,7 +1494,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 3,
@@ -1515,7 +1520,7 @@ export const pets = {
             note: "Changed base stats of Camel to 2/6 from 2/5; Changed ability of Camel to [Hurt: Give (+2/+2)/(+4/+4)/(+6/+6) to friend behind] from [Hurt: Give friend behind (+1/+2)/(+2/+4)/(+3/+6)]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 2,
@@ -1535,59 +1540,70 @@ export const pets = {
     },
     Dog: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Dog to 3/4 and ability to give (+1/+1)/(+2/+2)/(+3/+3) until end of battle"
+        },
+        {
+            changeNum: 2,
             patchNum: "8th December 2021",
             note: "Dog was changed to begin appearing at Tier 3"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 3,
-            health: 3,
-            effect: "Friend summoned: Gain +1 attack or health",
+            health: 4,
+            effect: "Friend summoned: Gain (+1/+1) until end of battle",
         },
         leveltwo : {
             attack: 5,
-            health: 5,
-            effect: "Friend summoned: Gain +2 attack or health",
+            health: 6,
+            effect: "Friend summoned: Gain (+2/+2) until end of battle",
         },
         levelthree : {
             attack: 8,
-            health: 8,
-            effect: "Friend summoned: Gain +3 attack or health",
+            health: 9,
+            effect: "Friend summoned: Gain (+3/+3) until end of battle",
         }
     },
     Giraffe: {
         changes: 
         [{
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Giraffe to 1/3"
+        },
+        {
+            changeNum: 2,
             patchNum: "10th May 2022",
             note: "Changed base stats of the Giraffe to 2/4 from 2/5"
         },
         {
-            changeNum: 2,
+            changeNum: 3,
             patchNum: "8th December 2021",
             note: "Attack and Health were changed to 2/5"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
-            attack: 2,
-            health: 5,
-            effect: "End Turn: Give 1 friends ahead (+1/+1)",
+            attack: 1,
+            health: 3,
+            effect: "End Turn: Give the nearest friend ahead (+1/+1)",
         },
         leveltwo : {
-            attack: 4,
-            health: 7,
-            effect: "End Turn: Give 2 friends ahead (+1/+1)",
+            attack: 3,
+            health: 5,
+            effect: "End Turn: Give the nearest two friends ahead (+1/+1)",
         },
         levelthree : {
-            attack: 7,
-            health: 10,
-            effect: "End Turn: Give 3 friends ahead (+1/+1)",
+            attack: 6,
+            health: 8,
+            effect: "End Turn: Give the nearest three friends ahead (+1/+1)",
         }
     },
     Kangaroo: {
@@ -1598,7 +1614,7 @@ export const pets = {
             note: "Attack and Health were changed to 1/2"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 1,
@@ -1618,13 +1634,19 @@ export const pets = {
     },
     Ox: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Fixed Ox sometimes not triggering with spawning pets"
+        },
+        {
+            changeNum: 2,
             patchNum: "10th May 2022",
             note: "Changed base stats of Ox to 1/3 from 1/4; Changed ability of Ox to [Friend ahead faints: Gain Melon Armor and +1/+2/+3 Attack] from [Friend ahead faints: Gain Melon Armor and +2/+4/+6 Attack]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 1,
@@ -1655,7 +1677,7 @@ export const pets = {
             note: "Changed Rabbit's ability to [Pet eats shop food: Give it +1/+2/+3 Health] from [Other Pet eats shop food: Give it +1/+2/+3 Health]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 1,
@@ -1681,7 +1703,7 @@ export const pets = {
             note: "Level 2 and 3 sheep spawsn to 6/6 and 9/9 rams"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 2,
@@ -1707,7 +1729,7 @@ export const pets = {
             note: "Changed Snail ability to give +1/+1"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 3,
         levelone : {
             attack: 2,
@@ -1727,54 +1749,60 @@ export const pets = {
     },
     Turtle: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Turtle to 2/3 tier 4"
+        },
+        {
+            changeNum: 2,
             patchNum: "8th December 2021",
             note: "Attack and Health were changed to 1/2"
         },
         ],
-        pack: 0,
-        tier: 3,
+        pack: "Turtle",
+        tier: 4,
         levelone : {
-            attack: 1,
-            health: 2,
-            effect: "Before Faint: Give 1 friend behind Melon Armor",
+            attack: 2,
+            health: 5,
+            effect: "Before Faint: Give the nearest friend behind melon armor",
         },
         leveltwo : {
-            attack: 3,
-            health: 4,
-            effect: "Before Faint: Give 2 friends behind Melon Armor",
+            attack: 4,
+            health: 7,
+            effect: "Before Faint: Give the two nearest friends behind melon armor",
         },
         levelthree : {
-            attack: 6,
-            health: 7,
-            effect: "Before Faint: Give 3 friends behind Melon Armor",
+            attack: 7,
+            health: 10,
+            effect: "Before Faint: Give the three nearest friends behind melon armor",
         }
     },
     Hatching_Chick: {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "7th September 2022",
+            note: "Changed Hatching Chicken to 2/2 and ability buff +4/+4"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 3,
         levelone : {
-            attack: 1,
-            health: 1,
-            effect: "End turn: Give (+5/+5) to friend ahead until end of battle",
+            attack: 2,
+            health: 2,
+            effect: "End turn: Give (+4/+4) to nearest friend ahead until end of battle",
         },
         leveltwo : {
-            attack: 3,
-            health: 3,
-            effect: "End turn: Give (+2/+2) to friend ahead",
+            attack: 4,
+            health: 4,
+            effect: "End turn: Give (+2/+2) to nearest friend ahead",
         },
         levelthree : {
-            attack: 6,
-            health: 6,
-            effect: "End turn: Give friend ahead 1 Experience",
+            attack: 7,
+            health: 7,
+            effect: "Start of turn: Give +1 experience to friend ahead",
         }
     },
     Owl: {
@@ -1785,7 +1813,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 3,
         levelone : {
             attack: 5,
@@ -1805,33 +1833,39 @@ export const pets = {
     },
     Puppy: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Puppy ability buff to (+2/+1)/(+4/+2)/(+6/+3)"
+        },
+        {
+            changeNum: 2,
             patchNum: "8th December 2021",
             note: "Ability was changed to only activate when there is 3 or more gold instead of 2"
         },
         {
-            changeNum: 2,
+            changeNum: 3,
             patchNum: "3rd August 2021",
             note: "Changed to tier 3; Attack and health changed to 1/1"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 3,
         levelone : {
             attack: 1,
-            health: 1,
-            effect: "End turn: If you have 2 or more gold, gain (+2/+2)",
+            health: 2,
+            effect: "End turn: If you have at least 2 gold, gain (+2/+1)",
         },
         leveltwo : {
             attack: 3,
-            health: 3,
-            effect: "End turn: If you have 2 or more gold, gain (+4/+4)",
+            health: 4,
+            effect: "End turn: If you have at least 2 gold, gain (+4/+2)",
         },
         levelthree : {
             attack: 6,
-            health: 6,
-            effect: "End turn: If you have 2 or more gold, gain (+6/+6)",
+            health: 7,
+            effect: "End turn: If you have at least 2 gold, gain (+6/+3)",
         }
     },
     Tropical_Fish: {
@@ -1842,7 +1876,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 3,
         levelone : {
             attack: 2,
@@ -1868,7 +1902,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 2,
@@ -1894,7 +1928,7 @@ export const pets = {
             note: "Cassowary's ability changed from [End turn: Gain (+1/+1) for each friendly Strawberry pet up to 1/2/3] to [End turn: If you have at least one Strawberry pet, gain +1/2/3 stats]"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 2,
@@ -1920,7 +1954,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 2,
@@ -1946,7 +1980,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 4,
@@ -1972,7 +2006,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 1,
@@ -1998,7 +2032,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 3,
@@ -2024,7 +2058,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 3,
@@ -2050,22 +2084,22 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 4,
             health: 3,
-            effect: "Start of battle: Deal 2 damage to the two pets ahead. Repeats 1 time",
+            effect: "Start of battle: Deal 2 damage to the two pets ahead. Triggers 1 time",
         },
         leveltwo : {
             attack: 6,
             health: 5,
-            effect: "Start of battle: Deal 2 damage to the two pets ahead. Repeats 2 times",
+            effect: "Start of battle: Deal 2 damage to the two pets ahead. Triggers 2 times",
         },
         levelthree : {
             attack: 9,
             health: 8,
-            effect: "Start of battle: Deal 2 damage to the two pets ahead. Repeats 3 times",
+            effect: "Start of battle: Deal 2 damage to the two pets ahead. Triggers 3 times",
         }
     },
     Aardvark: {
@@ -2206,7 +2240,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 3,
         levelone : {
             attack: 2,
@@ -2237,7 +2271,7 @@ export const pets = {
             note: "Changed the base stats of the Caterpillar to 1/3"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 4,
         levelone : {
             attack: 2,
@@ -2263,7 +2297,7 @@ export const pets = {
             note: "Changed the base stats of the Bison to 4/4 from 6/6"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 4,
@@ -2294,7 +2328,7 @@ export const pets = {
             note: "Deer stats set to 1/1; Deer ability is [Faint: Summon a 7/7 bus]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 1,
@@ -2314,53 +2348,64 @@ export const pets = {
     },
     Dolphin: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Dolphin to 4/3 tier 3 and ability to deal 3 damage and to Trigger 1 > 2 > 3 times"
+        },
+        {
+            changeNum: 2,
             patchNum: "8th December 2021",
-            note: "Dolphin made available in Expansion Pack 1"
+            note: "Dolphin made available in Puppy Pack"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 4,
-            health: 6,
-            effect: "Start of battle: Deal 5 damage to the lowest health enemy",
+            health: 3,
+            effect: "Start of battle: Deal 3 damage to the lowest health enemy",
         },
         leveltwo : {
             attack: 6,
-            health: 8,
-            effect: "Start of battle: Deal 10 damage to the lowest health enemy",
+            health: 5,
+            effect: "Start of battle: Deal 3 damage to the lowest health enemy. Triggers 2 times",
         },
         levelthree : {
             attack: 9,
-            health: 11,
-            effect: "Start of battle: Deal 15 damage to the lowest health enemy",
+            health: 8,
+            effect: "Start of battle: Deal 3 damage to the lowest health enemy. Triggers 3 times",
         }
     },
     Hippo: {
         changes: 
         [{
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Hippo to 4/5"
+        },
+        {
+            changeNum: 2,
             patchNum: "10th May 2022",
             note: "Changed ability of Hippo to [Knock-out: Gain (+3/+3)/(+6/+6)/(+9/+9)] from [Knock-out: Gain (+2/+2)/(+4/+4)/(+6/+6)]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 4,
-            health: 7,
+            health: 5,
             effect: "Knockout: Gain (+3/+3)",
         },
         leveltwo : {
             attack: 6,
-            health: 9,
+            health: 7,
             effect: "Knockout: Gain (+6/+6)",
         },
         levelthree : {
             attack: 9,
-            health: 12,
+            health: 10,
             effect: "Knockout: Gain (+9/+9)",
         }
     },
@@ -2382,7 +2427,7 @@ export const pets = {
             note: "Now loses copy of ability at end of every battle"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 4,
@@ -2402,28 +2447,34 @@ export const pets = {
     },
     Penguin: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Penguin to 2/4 and ability to target two friends"
+        },
+        {
+            changeNum: 2,
             patchNum: "10th May 2022",
             note: "Changed the ability of the Penguin to [End turn: Give three level 2 and 3 friends (+1/+1)/(+2/+2)/(+3/+3)] from [End turn: Give other level 2 and 3 friends (+1/+1)/(+2/+2)/(+3/+3)]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
-            attack: 1,
-            health: 2,
-            effect: "End turn: Give three level 2 and 3 friends (+1/+1)",
+            attack: 2,
+            health: 4,
+            effect: "End turn: Give two level 2 and 3 friends (+1/+1)",
         },
         leveltwo : {
-            attack: 3,
-            health: 4,
-            effect: "End turn: Give three level 2 and 3 friends (+2/+2)",
+            attack: 4,
+            health: 6,
+            effect: "End turn: Give two level 2 and 3 friends (+2/+2)",
         },
         levelthree : {
-            attack: 6,
-            health: 7,
-            effect: "End turn: Give three level 2 and 3 friends (+3/+3)",
+            attack: 7,
+            health: 9,
+            effect: "End turn: Give two level 2 and 3 friends (+3/+3)",
         }
     },
     Rooster: {
@@ -2434,7 +2485,7 @@ export const pets = {
             note: "Pet's ability was changed from giving the Chick the same Attack as the fainted Rooster to half; Attack and Health were changed to 5/3"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 5,
@@ -2460,7 +2511,7 @@ export const pets = {
             note: "Attack and Health were changed to 3/6"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 3,
@@ -2491,7 +2542,7 @@ export const pets = {
             note: "Ability changed to [Start of turn: Discount shop food by 1 gold] from [When bought: Clear and fill shops with food]; Changed to a 2/5"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 2,
@@ -2522,7 +2573,7 @@ export const pets = {
             note: "Whale now starts appearing at Tier 4"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 3,
@@ -2553,7 +2604,7 @@ export const pets = {
             note: "Changed base stats of Worm to 2/2"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 4,
         levelone : {
             attack: 3,
@@ -2584,7 +2635,7 @@ export const pets = {
             note: "Changed to Tier 4"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 4,
         levelone : {
             attack: 4,
@@ -2610,7 +2661,7 @@ export const pets = {
             note: "Attack and Health were changed to 3/6"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 4,
         levelone : {
             attack: 3,
@@ -2632,31 +2683,36 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Lobster to 3/3 and ability buff to +2/+2"
+        },
+        {
+            changeNum: 2,
             patchNum: "10th May 2022",
             note: "Changed the ability of the Lobster to [Friend summoned outside battle: Give it (+2/+3)/(+4/+6)/(+6/+9)] from [Friend summoned: Give it (+2/+2)/(+4/+4)/(+6/+6) when not in battle]"
         },
         {
-            changeNum: 2,
+            changeNum: 3,
             patchNum: "8th December 2021",
             note: "Changed the base stats of the Lobster to 4/5"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 4,
         levelone : {
-            attack: 4,
-            health: 5,
-            effect: "Friend summoned outside battle: Give it (+2/+3)",
+            attack: 3,
+            health: 3,
+            effect: "Friend summoned: If outside battle, give it (+2/+2)",
         },
         leveltwo : {
-            attack: 6,
-            health: 7,
-            effect: "Friend summoned outside battle: Give it (+4/+6)",
+            attack: 5,
+            health: 5,
+            effect: "Friend summoned: If outside battle, give it (+4/+4)",
         },
         levelthree : {
-            attack: 9,
-            health: 10,
-            effect: "Friend summoned outside battle: Give it (+6/+9)",
+            attack: 8,
+            health: 8,
+            effect: "Friend summoned: If outside battle, give it (+6/+6)",
         }
     },
     Microbe: {
@@ -2672,7 +2728,7 @@ export const pets = {
             note: "Weak changed from 5 extra damage to 3"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 4,
         levelone : {
             attack: 1,
@@ -2698,7 +2754,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 3,
@@ -2724,7 +2780,7 @@ export const pets = {
             note: "Crow's ability changed from [Sell: replace food shop with 1/2/3 Chocolate that gives +1 Experience] to [Sell: Replace shop with one Chocolate that gives +1/2/3 experience]"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 3,
@@ -2750,7 +2806,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 4,
@@ -2776,7 +2832,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 5,
@@ -2802,7 +2858,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 4,
@@ -2828,7 +2884,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 3,
@@ -2854,7 +2910,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 2,
@@ -2880,7 +2936,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 5,
@@ -2906,7 +2962,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 4,
         levelone : {
             attack: 7,
@@ -3088,7 +3144,7 @@ export const pets = {
             note: "Cow's ability is now affected by being leveled up; The Attack and Health that Milk gave was changed to 1/2 and scales accordingly to each level"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 5,
         levelone : {
             attack: 4,
@@ -3119,22 +3175,22 @@ export const pets = {
             note: "Crocodile's ability damage was increased to 8 and scales with each level accordingly; Attack and Health were changed to 8/4"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 5,
         levelone : {
             attack: 8,
             health: 4,
-            effect: "Start of battle: Deal 8 damage to the last enemy. Repeats 1 time",
+            effect: "Start of battle: Deal 8 damage to the last enemy. Triggers 1 time",
         },
         leveltwo : {
             attack: 10,
             health: 6,
-            effect: "Start of battle: Deal 8 damage to the last enemy. Repeats 2 time(s)",
+            effect: "Start of battle: Deal 8 damage to the last enemy. Triggers 2 time(s)",
         },
         levelthree : {
             attack: 13,
             health: 9,
-            effect: "Start of battle: Deal 8 damage to the last enemy. Repeats 3 time(s)",
+            effect: "Start of battle: Deal 8 damage to the last enemy. Triggers 3 time(s)",
         }
     },
     Monkey: {
@@ -3150,7 +3206,7 @@ export const pets = {
             note: "Monkey will now start appearing at Tier 5; Monkey's ability was changed to [give the right-most friend +3/+3] and scales with each level; Attack and Health was changed to 1/2"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 5,
         levelone : {
             attack: 1,
@@ -3181,7 +3237,7 @@ export const pets = {
             note: "Attack and Health were changed to 5/8"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 5,
         levelone : {
             attack: 5,
@@ -3207,7 +3263,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 5,
         levelone : {
             attack: 1,
@@ -3233,7 +3289,7 @@ export const pets = {
             note: "Attack and Health were changed to 3/8"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 5,
         levelone : {
             attack: 3,
@@ -3253,85 +3309,103 @@ export const pets = {
     },
     Shark: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Shark to 4/2 and ability to Friend faints: Gain (+1/+2)/(+2/+4)/(+3/+6). Double outside battle"
+        },
+        {
+            changeNum: 2,
             patchNum: "10th May 2022",
             note: "Ability changed to [Friend faints: Gain +2/+2(was +2/+1)]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 5,
         levelone : {
             attack: 4,
-            health: 4,
-            effect: "Friend faints: Gain (+2/+2)",
+            health: 2,
+            effect: "Friend faints: Gain (+1/+2). Double outside battle",
         },
         leveltwo : {
             attack: 6,
-            health: 6,
-            effect: "Friend faints: Gain (+4/+4)",
+            health: 4,
+            effect: "Friend faints: Gain (+2/+4). Double outside battle",
         },
         levelthree : {
             attack: 9,
-            health: 9,
-            effect: "Friend faints: Gain (+6/+6)",
+            health: 7,
+            effect: "Friend faints: Gain (+3/+6). Double outside battle",
         }
     },
     Turkey: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Turkey ability buff to (+3/+3)"
+        },
+        {
+            changeNum: 2,
             patchNum: "10th May 2022",
             note: "Changed ability from [Friend summoned: Give it (+3/+3)/(+6/+6)/(+9/+9)] to [Friend summoned: Give it (+2/+3)/(+4/+6)/(+6/+9)]"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 5,
         levelone : {
             attack: 3,
             health: 4,
-            effect: "Friend summoned: Give it (+2/+3)",
+            effect: "Friend summoned: Give it (+3/+3)",
         },
         leveltwo : {
             attack: 5,
             health: 6,
-            effect: "Friend summoned: Give it (+4/+6)",
+            effect: "Friend summoned: Give it (+6/+6)",
         },
         levelthree : {
             attack: 8,
             health: 9,
-            effect: "Friend summoned: Give it (+6/+9)",
+            effect: "Friend summoned: Give it (+9/+9)",
         }
     },
     Chicken: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Chicken to 3/4 tier 6"
+        },
+        {
+            changeNum: 2,
             patchNum: "8th December 2021",
             note: "Attack and Health were changed 1/2"
         },
         {
-            changeNum: 2,
+            changeNum: 3,
             patchNum: "3rd August 2021",
             note: "Changed to Tier 5; Attack and Health were changed to 3/4"
         },
         ],
-        pack: 1,
-        tier: 5,
+        pack: "Puppy",
+        tier: 6,
         levelone : {
-            attack: 1,
-            health: 2,
-            effect: "Buy tier 1 pet: Give current and future shop pets (+1/+1)",
-        },
-        leveltwo : {
             attack: 3,
             health: 4,
-            effect: "Buy tier 1 pet: Give current and future shop pets (+2/+2)",
+            effect: "Tier 1 friend bought: Give current and future shop pets (+1/+1)",
+        },
+        leveltwo : {
+            attack: 5,
+            health: 6,
+            effect: "Tier 1 friend bought: Give current and future shop pets (+2/+2)",
         },
         levelthree : {
-            attack: 6,
-            health: 7,
-            effect: "Buy tier 1 pet: Give current and future shop pets (+3/+3)",
+            attack: 8,
+            health: 9,
+            effect: "Tier 1 friend bought: Give current and future shop pets (+3/+3)",
         }
     },
     Eagle: {
@@ -3342,7 +3416,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 5,
         levelone : {
             attack: 6,
@@ -3373,7 +3447,7 @@ export const pets = {
             note: "Poodle will now start appearing at Tier 5; Attack and Health were changed to 2/2"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 5,
         levelone : {
             attack: 2,
@@ -3404,7 +3478,7 @@ export const pets = {
             note: "Changed to Tier 5"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 5,
         levelone : {
             attack: 4,
@@ -3430,7 +3504,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 5,
@@ -3456,7 +3530,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 2,
@@ -3482,7 +3556,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 6,
@@ -3508,7 +3582,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 4,
@@ -3534,7 +3608,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 2,
@@ -3560,7 +3634,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 4,
@@ -3586,7 +3660,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 5,
@@ -3612,7 +3686,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 5,
@@ -3634,26 +3708,26 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "7th September 2022",
+            note: "Changed Vulture ability to Two friends faint: Deal 4/8/12 damage to one random enemy"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 4,
             health: 3,
-            effect: "Friend faints: Deal 2 damage to a random enemy",
+            effect: "Two friends faint: Deal 4 damage to one random enemy",
         },
         leveltwo : {
             attack: 6,
             health: 5,
-            effect: "Friend faints: Deal 4 damage to a random enemy",
+            effect: "Two friends faint: Deal 8 damage to one random enemy",
         },
         levelthree : {
             attack: 9,
             health: 8,
-            effect: "Friend faints: Deal 6 damage to a random enemy",
+            effect: "Two friends faint: Deal 12 damage to one random enemy",
         }
     },
     Zebra: {
@@ -3664,7 +3738,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 5,
         levelone : {
             attack: 3,
@@ -3773,7 +3847,7 @@ export const pets = {
             note: "Pet is introduced to the game in Standard Pack and Expansion Pack #1"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 10,
@@ -3799,7 +3873,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 4,
@@ -3825,7 +3899,7 @@ export const pets = {
             note: "Dragon no longer buffs itself"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 6,
@@ -3861,7 +3935,7 @@ export const pets = {
             note: "Level 2 and 3 Fly now summons 4/4 and 6/6"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 5,
@@ -3887,7 +3961,7 @@ export const pets = {
             note: "Attack and Health were changed to 6/9"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 6,
@@ -3913,7 +3987,7 @@ export const pets = {
             note: "Attack and Health were changed to 10/4"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 10,
@@ -3939,7 +4013,7 @@ export const pets = {
             note: "Attack and Health were changed to 3/10"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 3,
@@ -3965,7 +4039,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 6,
@@ -3986,9 +4060,9 @@ export const pets = {
     Tiger: {
         changes: 
         [{
-            changeNum: 1,
-            patchNum: "11th August 2022",
-            note: "Tiger no longer doubles held food abilities"
+                changeNum: 1,
+                patchNum: "11th August 2022",
+                note: "Tiger no longer doubles held food abilities"
         },
         {
             changeNum: 2,
@@ -4006,53 +4080,59 @@ export const pets = {
             note: "Fixed Tiger also working End of Turn and Start of Turn effects"
         },
         ],
-        pack: 0,
+        pack: "Turtle",
         tier: 6,
         levelone : {
             attack: 4,
             health: 3,
-            effect: "The friend ahead repeats their ability in battle as if they were level 1",
+            effect: "The friend ahead triggers their ability in battle as if they were level 1",
         },
         leveltwo : {
             attack: 6,
             health: 5,
-            effect: "The friend ahead repeats their ability in battle as if they were level 2",
+            effect: "The friend ahead triggers their ability in battle as if they were level 2",
         },
         levelthree : {
             attack: 9,
             health: 8,
-            effect: "The friend ahead repeats their ability in battle as if they were level 3",
+            effect: "The friend ahead triggers their ability in battle as if they were level 3",
         }
     },
     Octopus: {
         changes: 
-        [{
+        [
+        {
             changeNum: 1,
+            patchNum: "7th September 2022",
+            note: "Changed Octopus ability to deal 6 damage to one > two > three random enemies"
+        },
+        {
+            changeNum: 2,
             patchNum: "5th May 2022",
             note: "Changed effect to [Before Attack: Deal 3/6/9 damage to two random enemies]"
         },
         {
-            changeNum: 2,
+            changeNum: 3,
             patchNum: "3rd August 2021",
             note: "Changed level 3 effect to [Before attack: Deal 5 damage to all enemies]"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 6,
         levelone : {
             attack: 8,
             health: 8,
-            effect: "Before attack: Deal 3 damage to 2 random enemies",
+            effect: "Before attack: Deal 6 damage to one random enemy",
         },
         leveltwo : {
             attack: 10,
             health: 10,
-            effect: "Before attack: Deal 6 damage to 2 random enemies",
+            effect: "Before attack: Deal 6 damage to two random enemies",
         },
         levelthree : {
             attack: 13,
             health: 13,
-            effect: "Before attack: Deal 9 damage to 2 random enemies",
+            effect: "Before attack: Deal 6 damage to three random enemies",
         }
     },
     Sauropod: {
@@ -4063,7 +4143,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 6,
         levelone : {
             attack: 4,
@@ -4094,7 +4174,7 @@ export const pets = {
             note: "Tyrannosaurus' ability can now target itself; The Attack and Health give when the ability is activated was changed to +2/+1 and scales accordingly"
         },
         ],
-        pack: 1,
+        pack: "Puppy",
         tier: 6,
         levelone : {
             attack: 9,
@@ -4120,7 +4200,7 @@ export const pets = {
             note: "Changed ability to [Start of turn: Gain 3 gold if there is at least one level 3 friendly pet] from [Start of turn: Gain 2 gold per level 3 pet]"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 5,
@@ -4146,7 +4226,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 6,
@@ -4172,7 +4252,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 4,
@@ -4198,7 +4278,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 2,
@@ -4224,7 +4304,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 10,
@@ -4250,7 +4330,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 6,
@@ -4276,7 +4356,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 8,
@@ -4302,7 +4382,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 4,
@@ -4328,7 +4408,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 3,
@@ -4354,7 +4434,7 @@ export const pets = {
             note: "N/A"
         },
         ],
-        pack: 2,
+        pack: "Star",
         tier: 6,
         levelone : {
             attack: 3,
