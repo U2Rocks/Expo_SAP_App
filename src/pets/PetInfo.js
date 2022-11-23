@@ -356,8 +356,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Changed ability from [Start of turn: set attack to 2/4/6] to [Start of turn: Set attack to the current shop tier + 1/2/3]"
         },
         ],
         pack: "Star",
@@ -365,17 +365,17 @@ export const pets = {
         levelone : {
             attack: 1,
             health: 4,
-            effect: "Start of turn: Set attack to 2",
+            effect: "Start of turn: Set attack to the current shop tier + 1",
         },
         leveltwo : {
             attack: 3,
             health: 6,
-            effect: "Start of turn: Set attack to 4",
+            effect: "Start of turn: Set attack to the current shop tier + 2",
         },
         levelthree : {
             attack: 6,
             health: 9,
-            effect: "Start of turn: Set attack to 6",
+            effect: "Start of turn: Set attack to the current shop tier + 3",
         }
     },
     Frog: {
@@ -1100,8 +1100,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Ability changed from [Start of battle: Deal 2/4/6 damage for each friendly Strawberry pet to an enemy] to [Start of battle: Deal 2 damage for each friendly Strawberry pet to one/two/three random enemies]"
         },
         ],
         pack: "Star",
@@ -1109,25 +1109,25 @@ export const pets = {
         levelone : {
             attack: 1,
             health: 3,
-            effect: "Start of battle: Deal 2 damage for each friendly Strawberry pet to an enemy",
+            effect: "Start of battle: Deal 2 damage for each friendly Strawberry pet to one random enemy",
         },
         leveltwo : {
             attack: 3,
             health: 5,
-            effect: "Start of battle: Deal 4 damage for each friendly Strawberry pet to an enemy",
+            effect: "Start of battle: Deal 2 damage for each friendly Strawberry pet to two random enemies",
         },
         levelthree : {
             attack: 6,
             health: 8,
-            effect: "Start of battle: Deal 6 damage for each friendly Strawberry pet to an enemy",
+            effect: "Start of battle: Deal 2 damage for each friendly Strawberry pet to three random enemies",
         }
     },
     Dove: {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Ability changed from [Faint: Give Strawberry friends (+1/+1)/(+2/+2)/(+3/+3)] to [Faint: Give Strawberry friends (+2/+2)/(+4/+4)/(+6/+6)]"
         },
         ],
         pack: "Star",
@@ -1135,17 +1135,17 @@ export const pets = {
         levelone : {
             attack: 2,
             health: 4,
-            effect: "Faint: Give Strawberry friends (+1/+1)",
+            effect: "Faint: Give Strawberry friends (+2/+2)",
         },
         leveltwo : {
             attack: 4,
             health: 6,
-            effect: "Faint: Give Strawberry friends (+2/+2)",
+            effect: "Faint: Give Strawberry friends (+4/+4)",
         },
         levelthree : {
             attack: 7,
             health: 9,
-            effect: "Faint: Give Strawberry friends (+3/+3)",
+            effect: "Faint: Give Strawberry friends (+6/+6)",
         }
     },
     Guinea_Pig: {
@@ -2828,25 +2828,25 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Stats changed from [5/2] to [5/4]"
         },
         ],
         pack: "Star",
         tier: 4,
         levelone : {
             attack: 5,
-            health: 2,
+            health: 4,
             effect: "Start of battle: Gain 50% bonus health",
         },
         leveltwo : {
             attack: 7,
-            health: 4,
+            health: 6,
             effect: "Start of battle: Gain 100% bonus health",
         },
         levelthree : {
             attack: 10,
-            health: 7,
+            health: 9,
             effect: "Start of battle: Gain 150% bonus health",
         }
     },
@@ -3578,8 +3578,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Ability buffed to give [+4/+4;+8/+8;+12/+12] to a frozen shop pet from [+3/+3;+6/+6;+9/+9]"
         },
         ],
         pack: "Star",
@@ -3587,17 +3587,17 @@ export const pets = {
         levelone : {
             attack: 4,
             health: 8,
-            effect: "Start of turn: Give a random frozen shop pet (+3/+3)",
+            effect: "Start of turn: Give a random frozen shop pet (+4/+4)",
         },
         leveltwo : {
             attack: 6,
             health: 10,
-            effect: "Start of turn: Give a random frozen shop pet (+6/+6)",
+            effect: "Start of turn: Give a random frozen shop pet (+8/+8)",
         },
         levelthree : {
             attack: 9,
             health: 13,
-            effect: "Start of turn: Give a random frozen shop pet (+9/+9)",
+            effect: "Start of turn: Give a random frozen shop pet (+12/+12)",
         }
     },
     Shoebill: {
@@ -3812,8 +3812,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Ability changed from [End turn: Give (+1/+1) to 1/2/3 pet behind. Multiply buff with the lowest pet tier in the shop] to [End turn: Unfreeze shop and give (+1/+1) to one/two/three random friends. Multiply with the lowest tier in the pet shop]"
         },
         ],
         pack: "Weekly",
@@ -3821,17 +3821,17 @@ export const pets = {
         levelone : {
             attack: 5,
             health: 6,
-            effect: "End turn: Give (+1/+1) to 1 pet behind. Multiply buff with the lowest pet tier in the shop",
+            effect: "End turn: Unfreeze shop and give (+1/+1) to one random friend. Multiply with the lowest tier in the pet shop",
         },
         leveltwo : {
             attack: 7,
             health: 8,
-            effect: "End turn: Give (+1/+1) to 2 pets behind. Multiply buff with the lowest pet tier in the shop",
+            effect: "End turn: Unfreeze shop and give (+1/+1) to two random friends. Multiply with the lowest tier in the pet shop",
         },
         levelthree : {
             attack: 10,
             health: 11,
-            effect: "End turn: Give (+1/+1) to 3 pets behind. Multiply buff with the lowest pet tier in the shop",
+            effect: "End turn: Unfreeze shop and give (+1/+1) to three random friends. Multiply with the lowest tier in the pet shop",
         }
     },
     Boar: {
@@ -4300,8 +4300,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Ability buffed to give friends (+3/6/9) attack from (+2/4/6)"
         },
         ],
         pack: "Star",
@@ -4309,17 +4309,17 @@ export const pets = {
         levelone : {
             attack: 10,
             health: 2,
-            effect: "Hurt & Faint: Give friends +2 attack",
+            effect: "Hurt & Faint: Give friends +3 attack",
         },
         leveltwo : {
             attack: 12,
             health: 4,
-            effect: "Hurt & Faint: Give friends +4 attack",
+            effect: "Hurt & Faint: Give friends +6 attack",
         },
         levelthree : {
             attack: 15,
             health: 7,
-            effect: "Hurt & Faint: Give friends +6 attack",
+            effect: "Hurt & Faint: Give friends +9 attack",
         }
     },
     Reindeer: {
@@ -4404,8 +4404,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Ability changed from [End turn: Give friend ahead (+1/+1)/(+2/+2)/(+3/+3) until end of battle. Multiply buff with turn number] to [End turn: Give one random friend without held food (+1/+1)/(+2/+2)/(+3/+3). Multiply with turn number]"
         },
         ],
         pack: "Star",
@@ -4413,17 +4413,17 @@ export const pets = {
         levelone : {
             attack: 3,
             health: 8,
-            effect: "End turn: Give friend ahead (+1/+1) until end of battle. Multiply buff with turn number",
+            effect: "End turn: Give one random friend without held food (+1/+1). Multiply with turn number",
         },
         leveltwo : {
             attack: 5,
             health: 10,
-            effect: "End turn: Give friend ahead (+2/+2) until end of battle. Multiply buff with turn number",
+            effect: "End turn: Give one random friend without held food (+2/+2). Multiply with turn number",
         },
         levelthree : {
             attack: 8,
             health: 13,
-            effect: "End turn: Give friend ahead (+3/+3) until end of battle. Multiply buff with turn number",
+            effect: "End turn: Give one random friend without held food (+3/+3). Multiply with turn number",
         }
     },
     Velociraptor: {
@@ -4560,8 +4560,8 @@ export const pets = {
         changes: 
         [{
             changeNum: 1,
-            patchNum: "N/A",
-            note: "N/A"
+            patchNum: "24th October 2022",
+            note: "Ability changed from [Start of battle: Make 1/2/3 friends behind level 3. Except other White Tigers] to [Start of battle: Give the one/two/three nearest friends behind +3 experience]"
         },
         ],
         pack: "Weekly",
@@ -4569,17 +4569,43 @@ export const pets = {
         levelone : {
             attack: 4,
             health: 3,
-            effect: "Start of battle: Make 1 friend behind level 3. Except other White Tigers",
+            effect: "Start of battle: Give the nearest friend behind +3 experience",
         },
         leveltwo : {
             attack: 6,
             health: 5,
-            effect: "Start of battle: Make 2 friends behind level 3. Except other White Tigers",
+            effect: "Start of battle: Give the two nearest friends behind +3 experience",
         },
         levelthree : {
             attack: 9,
             health: 8,
-            effect: "Start of battle: Make 3 friends behind level 3. Except other White Tigers",
+            effect: "Start of battle: Give the three nearest friends behind +3 experience",
+        }
+    },
+    Doberman: {
+        changes: 
+        [{
+            changeNum: 1,
+            patchNum: "24th October 2022",
+            note: "Doberman added to the game in update 0.23"
+        },
+        ],
+        pack: "Turtle",
+        tier: 4,
+        levelone : {
+            attack: 4,
+            health: 5,
+            effect: "Start of battle: If this is your lowest tier pet, gain Coconut and (+5/+5)",
+        },
+        leveltwo : {
+            attack: 6,
+            health: 7,
+            effect: "Start of battle: If this is your lowest tier pet, gain Coconut and (+10/+10)",
+        },
+        levelthree : {
+            attack: 9,
+            health: 10,
+            effect: "Start of battle: If this is your lowest tier pet, gain Coconut and (+15/+15)",
         }
     },
     

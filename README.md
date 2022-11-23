@@ -6,9 +6,11 @@ A small app for andriod and ios that acts as a SAP wiki with information on diff
 
 ## Update Status
 
--- Currently being rolled out on google play store(version 1.2)
+-- Currently being rolled out on google play store(version 6)
 
--- Not currently approved for the Apple app store
+-- Currently being rolled out on ios app store(version 2.20)
+
+-- slug version 1.3
 
 ## Final Comments and Notes
 

@@ -2,7 +2,7 @@
   "expo": {
     "name": "Super_Auto_Help",
     "slug": "Super_Auto_Help",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "orientation": "portrait",
     "icon": "./assets/Super_Carrot_1024.png",
     "userInterfaceStyle": "light",
@@ -20,7 +20,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.mycitrus.sap",
-      "buildNumber" : "2.1.0",
+      "buildNumber" : "2.2.0",
       "infoPlist": {}
     },
     "android": {
@@ -29,7 +29,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.mycitrus.sap",
-      "versionCode": 5,
+      "versionCode": 6,
       "permissions": []
     },
     "web": {
